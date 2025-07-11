@@ -70,3 +70,31 @@
 .action img{
     border-radius: 20px;
 }
+
+/* productiver-user-banner styles */
+.productive-user{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b9b7ec;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.productive-user-analytics{
+   display: flex;
+   justify-content: center; 
+   gap: 60px;   
+    
+    
+}
+.productive-user-analytics h2{
+    color: rgb(57, 57, 214);
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.productive-user-analytics p{
+    color: #252432;
+    font-size: 13px;
+    margin-top: 0;
+}
