@@ -6,7 +6,6 @@ body{
 .productive-user,
 .review,
 .letter{
-  
   margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -16,7 +15,7 @@ body{
 .banner{
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
-    height: 300px;
+    height: 350px;
 }
 .navbar{
     display: flex;
@@ -44,13 +43,14 @@ body{
     
 }
 .banner-main-section h2{
-    width: 35%;
-    margin: 15px auto;
+    width: 25%;
+    margin: 35px auto 15px auto;
 
 }
 .navbar-banner-btn{
     color: #fff;
     background-color: rgb(9, 9, 239) ;
+    margin-top: 0;
     border: none;
     border-radius: 7px;
     padding: 10px 20px;
@@ -66,7 +66,6 @@ body{
     display: flex;
     justify-content: space-between;
     max-width: 900px;
-    /* margin: 0 auto; */
 }
 
 .action-content{
@@ -74,7 +73,7 @@ body{
     margin: 50px 0;
 }
 .action-content-title{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .action-content-sub-title{
@@ -98,9 +97,8 @@ body{
 /* productiver-user-banner styles */
 .productive-user{
     max-width: 900px;
-    /* margin: 0 auto; */
     text-align: center;
-    background-color: #b9b7ec;
+    background-color: #d2d1ec;
     padding: 40px 0;
     border-radius: 10px;
 }
@@ -108,8 +106,7 @@ body{
    display: flex;
    justify-content: center; 
    gap: 60px;   
-    
-    
+        
 }
 .productive-user-analytics h2{
     color: rgb(57, 57, 214);
@@ -126,7 +123,6 @@ body{
 /* review styles */
 .review{
     max-width: 900px;
-    /* margin: 30px auto; */
     text-align: center;
 }
 .review-section{
@@ -142,7 +138,6 @@ body{
     display: flex;
     gap: 10px;
     height: 50px;
-
 
 }
 .reviewer01 img, .reviewer02 img, .reviewer03 img{
@@ -165,7 +160,6 @@ body{
 /* letter styles */
 .letter{
     max-width: 900px;
-    /* margin: 30px auto; */
     display: flex;
     justify-content: space-between;
 }
@@ -193,6 +187,14 @@ body{
   outline: none;
   border-radius: 5px;
 }
+.letter-input-form-btn{
+    color: #fff;
+    background-color: rgb(57, 57, 218);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
 
 /* footer styles */
 .footer{
@@ -209,7 +211,7 @@ body{
 .footer-content h1{
     color: rgb(61, 61, 174);
     font-size: 50px;
-    font-weight: 1000;
+    font-weight:bolder;
 }
     
 
