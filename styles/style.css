@@ -1,0 +1,41 @@
+/* banner styles */
+.banner{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    height: 300px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.logo{
+    color: rgb(9, 9, 239);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.sign-up-btn{
+    color: #fff;
+    background-color: rgb(9, 9, 239) ;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+.banner-main-section{
+    text-align: center;
+    margin: 60px auto;
+
+}
+.banner-main-section h2{
+    width: 35%;
+    margin: 15px auto;
+
+}
+.navbar-banner-btn{
+    color: #fff;
+    background-color: rgb(9, 9, 239) ;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
