@@ -230,7 +230,6 @@ body{
     font-weight:bolder;
 }
     
-
 .footer ul{
     list-style: none;
     display: flex;
@@ -239,6 +238,10 @@ body{
 .footer li a{
     text-decoration: none;
     color: #8987A1; 
-    
-    
+      
+}
+.footer li a:hover {
+  color: rgb(61, 61, 174); 
+  text-decoration: underline; 
+  transition: color 0.3s ease;
 }
